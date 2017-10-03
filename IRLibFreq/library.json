@@ -1,0 +1,34 @@
+{
+  "name": "IRLib2-IRLibFreq",
+  "keywords": "irlib, ir2, ir remote",
+  "description": "Arduino Library to send/receive IR signals based on frequency modulation",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/cyborg5/IRLib2.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Chris Young",
+      "email": "cy_borg5@cyborg5.com",
+      "url": "http://tech.cyborg5.com/irlib",
+      "maintainer": true
+    },
+    {
+      "name": "Ken Shirriff",
+      "url": "http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html"
+    }
+  ],
+  "dependencies":
+  {
+    "name": "IRLib2",
+    "frameworks": "arduino"
+  },
+  "export": {
+    "include": "IRLibFreq"
+  },
+  "version": "2.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}

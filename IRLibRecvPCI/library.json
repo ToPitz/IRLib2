@@ -1,7 +1,7 @@
 {
-  "name": "IRLib2",
+  "name": "IRLib2-IRLibRecvPCI",
   "keywords": "irlib, ir2, ir remote",
-  "description": "Arduino Library to send/receive ir signals",
+  "description": "Arduino Library to receive ir signals based on pin change interrupts",
   "repository":
   {
     "type": "git",
@@ -20,8 +20,13 @@
       "url": "http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html"
     }
   ],
+  "dependencies":
+  {
+    "name": "IRLib2",
+    "frameworks": "arduino"
+  },
   "export": {
-    "include": "IRLib2"
+    "include": "IRLibRecvPCI"
   },
   "version": "2.0.0",
   "frameworks": "arduino",
